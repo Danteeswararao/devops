@@ -21,12 +21,12 @@
             	<name>Releases</name>
             	<url>http://ec2-18-219-105-187.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
         </repository>
-	<snapshotRepository>
+	<!--<snapshotRepository>
       		<id>snapshots</id>
 		<name>Snapshots</name>
       		<url>http://ec2-18-219-105-187.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
     	</snapshotRepository>
-        <!-- Essential Vaadin artifacts are in maven central, but maven.vaadin.com 
+        Essential Vaadin artifacts are in maven central, but maven.vaadin.com 
             contains a huge set of additional libraries. See vaadin.com/directory 
        <repository>
             <id>vaadin-addons</id>
