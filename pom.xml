@@ -14,7 +14,18 @@
         <vaadin.version>8.0.0.alpha2</vaadin.version>
         <vaadin.plugin.version>${vaadin.version}</vaadin.plugin.version>
     </properties>
-
+	<distributionManagement>
+		<repository>
+      			<id>releases</id>
+			<name>Releases</name>
+      			<url>http://ec2-18-219-105-187.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/releases/</url>
+    		</repository>
+    		<snapshotRepository>
+      			<id>snapshots</id>
+			<name>Snapshots</name>
+      			<url>http://ec2-18-219-105-187.us-east-2.compute.amazonaws.com:8081/nexus/content/repositories/snapshots/</url>
+    		</snapshotRepository>
+	</distributionManagement>
 
     <pluginRepositories>
         <pluginRepository>
